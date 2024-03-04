@@ -123,3 +123,105 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+/* add an amazing animation to the social icons */
+img.socialIcon:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+button {
+  background-color: #4e567e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4e567e;
+}
+
+button:active {
+  background-color: #4e567e;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.secondary {
+  background-color: #f8f8f8;
+  color: #4e567e;
+}
+
+button.secondary:hover {
+  background-color: #f8f8f8;
+  color: #4e567e;
+}
+
+button.secondary:active {
+  background-color: #f8f8f8;
+  color: #4e567e;
+}
+
+button.secondary:focus {
+  outline: none;
+}
+
+button.large {
+  font-size: 1.25rem;
+  padding: 0.75rem 1.25rem;
+}
+
+button.small {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+
+button.large:hover {
+  font-size: 1.25rem;
+  padding: 0.75rem 1.25rem;
+}
+
+button.small:hover {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+
+/* add an amazing animation to the social icons */
+button:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+/* Add a media query to the CSS file to make the site mobile responsive */
+@media (max-width: 768px)
