@@ -222,6 +222,3 @@ button:hover {
     transform: rotate(-10deg);
   }
 }
-
-/* Add a media query to the CSS file to make the site mobile responsive */
-@media (max-width: 768px)
